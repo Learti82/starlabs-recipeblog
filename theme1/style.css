@@ -1,0 +1,209 @@
+/*
+Theme Name: Recipe Blog Theme
+Theme URI: http://example.com/theme-uri/
+Author: Your Name
+Author URI: http://example.com/author-uri/
+Description: Custom WordPress theme for a recipe blog.
+Version: 1.0
+License: GPL-2.0+
+License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+Text Domain: recipe-blog-theme
+*/
+
+/* Reset and general styles */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header styles */
+
+.site-header {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.site-description {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Navigation styles */
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-navigation li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.main-navigation a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.main-navigation a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Content styles */
+
+.site-content {
+  padding: 20px;
+}
+
+.entry-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.entry-content {
+  margin-top: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  background-color: #555;
+}
+
+/* Example CSS styles for recipe blog */
+
+/* Recipe article */
+.recipe {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.recipe-header {
+  margin-bottom: 20px;
+}
+
+.recipe-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.recipe-content {
+  display: flex;
+}
+
+.recipe-details {
+  flex: 1;
+}
+
+.recipe-cooking-time {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.recipe-ingredients,
+.recipe-steps {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.recipe-ingredients-list,
+.recipe-steps-list {
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.recipe-ingredients-list li,
+.recipe-steps-list li {
+  list-style-type: decimal;
+  margin-bottom: 5px;
+}
+
+.recipe-notes {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.site-footer {
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 14px;
+  color: #888888;
+}
+
+.site-info {
+  margin-bottom: 10px;
+}
+.menu-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.menu-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-button:hover {
+  background-color: #555;
+}
+/* styles.css */
+img {
+  width: 300px;
+  height: auto;
+}
+
+
+.photos-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-column {
+  width: calc(33.33% - 10px); /* Adjust the width as needed */
+  margin-right: 10px;
+}
+
+.photo {
+  margin-bottom: 10px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+.photo-description {
+  text-align: center;
+}
